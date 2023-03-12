@@ -1,9 +1,5 @@
 import React from 'react'
-import { createRoot } from "react-dom/client";
-import '../index.css'
-
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+import './index.css'
 
 class UserDashboard extends React.Component {
   constructor(props) {
@@ -56,6 +52,5 @@ class UserDashboard extends React.Component {
   }
 
 }
-root.render(<UserDashboard />);
 
 export default UserDashboard
